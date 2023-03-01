@@ -1,3 +1,4 @@
+//go:build required
 // +build required
 
 package gl
@@ -12,5 +13,5 @@ package gl
 //  - this file is given a build tag to exclude it from the regular build.
 import (
 	// Prevent go tooling from stripping out the c source files.
-	_ "github.com/go-gl/gl/v4.6-compatibility/gl/KHR"
+	_ "github.com/Eclalang/gl/v4.6-compatibility/gl/KHR"
 )

@@ -1,3 +1,3 @@
-module github.com/go-gl/gl
+module github.com/Eclalang/gl
 
 go 1.12
